@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: rgb(37, 37, 37);
+}
+
+.container{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.microphone{
+    font-size: 50px;
+}
+
+.microphone a{
+    color: white;
+}
+
+.container .message{
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.message h2{
+    background: white;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 10px;   
+}
+
+.message p {
+    background: white;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+}
+
+.message p.reply{
+    text-align: right;
+}
+
+@media(max-width: 768px){
+    .container .message{
+        width: 80%;
+    }
+}
